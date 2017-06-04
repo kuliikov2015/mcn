@@ -29,10 +29,6 @@ h4 {
     color: #fff;
 }
 
-a {
-    color: #e66e0d;
-}
-
 p a {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -41,9 +37,6 @@ p a {
     transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-    color: #000;
-}
 
 a.button_dark, a.button_light {
     background-color: #e66e0d;
@@ -132,7 +125,7 @@ div.cara {
 /* ---------- Header ---------- */
 
 #header {
-    width: 100%;
+    width: 960px;
     height: 75px;
     background-color: #fff;
 }
@@ -191,7 +184,7 @@ div.cara {
     }
     
     #menu ul li a:hover {
-	background-color: #f3f3f3;
+	background-color: #e66e0d;
     }
     
     #menu ul li a.active {
@@ -277,9 +270,9 @@ div.cara {
 }
 
 #content_inner {
-    width: 960px;
-    margin: auto;
-    padding-top: 0;
+    margin-top: 6%;
+    float: left;
+    margin-left: 6%
 
 
 }
@@ -602,7 +595,6 @@ div.cara {
     /* --------- Our Work (portfolio stuffs) ---------- */
 		
     ul#work_filter {
-    margin: 60px 0 42px 0;
     float: left;
     }
 	    
@@ -628,6 +620,16 @@ div.cara {
     #work_filter li, .pagination li {
     margin: 0 10px 0 10px;
     padding:3px 0px;
+    border: 1px #e66e0d solid;
+    padding-left: 10px;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px; 
+    cursor: pointer;
+    }
+    #work_filter li:hover {
+        background-color: #e66e0d;
     }
     
     .pagination {
@@ -892,9 +894,10 @@ form.formit .button_submit {
 
 
 table {
-    position: relative;
-    margin-left: 40%;
-    margin-top: 1%;
+    width: 650px;
+    float: left;
+    margin-top: 6%;
+    margin-left: 6%;
 }
 table p {
     text-align: left;
@@ -911,13 +914,13 @@ caption {
     font-size: 120%;
 }
 th {
-    padding:10px 25px;
+    padding:10px;
     border-bottom: 1px solid #c3ccd5;
     text-align: center;
      background: #e66e0d;
      font-weight: 600;
     }
-    tr:hove {
+    tr:hover {
         background: #e66e0d;
     }  
 td a {
@@ -927,57 +930,12 @@ td a {
     padding: 0px;
 }
 tr:hover {
-
     background: #e66e0d;
 }
-tr.styl_top_menu:hover {
-    background: none;
-} 
-
-
-
-
-/*вид меню каталог*/
-
-a.button_dar {
-    background-color: #e66e0d;
-    display: block;
-    width: 90px;
-    padding: 15px 30px 0 30px;
-    height: 33px;
-    text-align: center;
-    margin-left: 20%;
-    z-index: 2;
-    position: relative;
-    color: #fff;
-    font-size: 11pt;
-    font-weight: 400;
-    text-decoration: none;
-    letter-spacing: 1px;
-    text-shadow: 0px 1px #d72d05;
-    border: 5px solid rgba(0, 0, 0, .2);
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    box-shadow: inset 0px 1px #f08715;
-    
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    position: fixed;
-    bottom: 5%;
+tr.curs {
+    cursor: pointer;
+   
 }
-
-a:hover.button_dar {
-    background-color: #d76203;
-    text-shadow: 0px -1px #a70d00;
-    border: 5px solid rgba(0, 0, 0, .4);
-    -webkit-background-clip: padding-box; /* for Safari */
-    background-clip: padding-box;
-    box-shadow: inset 0px 1px 2px #c14d00;
-}
-
 
 
 /*------------ Услуги-------*/
@@ -1001,7 +959,32 @@ div.balka ul {
 table.sort{
     text-align: left;
 }
+/*_______меню марок стали______*/
 
+div.marki {
+    float: left;
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+}
+div.marki li {
+    border: 1px #e66e0d solid;
+    padding-left: 10px;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px; 
+    cursor: pointer;
+}
+div.marki li:hover {
+    background-color: #e66e0d;
+}
+.active {
+    background-color: #e66e0d;
+    color: #FFFFFF;
+}
 
 
 
