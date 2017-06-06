@@ -184,7 +184,7 @@ div.cara {
     }
     
     #menu ul li a:hover {
-	background-color: #e66e0d;
+	background-color: #D3D3D3;
     }
     
     #menu ul li a.active {
@@ -598,18 +598,24 @@ div.cara {
     float: left;
     }
 	    
-    #work_filter li a, .pagination li a {
+    #work_filter li, .pagination li a {
     text-decoration: none;
     color: #27292a;
     font-size: 100%;
     font-weight: 600;
     letter-spacing: 1px;
     padding: 0px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
     }
 	    
-    #work_filter li a:hover, .pagination li a:hover {
-    color: #000;
+    #work_filter li:hover, .pagination li a:hover {
+    color: #FFFFFF;
     font-weight: 400;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
     }
 	    
     #work_filter li a.active, .pagination li a.active {
@@ -898,6 +904,7 @@ table {
     float: left;
     margin-top: 6%;
     margin-left: 6%;
+
 }
 table p {
     text-align: left;
@@ -914,11 +921,18 @@ caption {
     font-size: 120%;
 }
 th {
+    
     padding:10px;
     border-bottom: 1px solid #c3ccd5;
     text-align: center;
-     background: #e66e0d;
+     background:;
      font-weight: 600;
+     -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #7
+    }
+    th.filtre {
+        
     }
     tr:hover {
         background: #e66e0d;
@@ -934,8 +948,9 @@ tr:hover {
 }
 tr.curs {
     cursor: pointer;
-   
+    border-radius: 3px; 
 }
+
 
 
 /*------------ Услуги-------*/
@@ -977,13 +992,23 @@ div.marki li {
     padding-bottom: 3px;
     border-radius: 3px; 
     cursor: pointer;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
 }
 div.marki li:hover {
+    color: #FFFFFF;
     background-color: #e66e0d;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
 }
 .active {
     background-color: #e66e0d;
     color: #FFFFFF;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
 }
 
 
