@@ -929,10 +929,10 @@ th {
      font-weight: 600;
      -webkit-box-shadow: 0 10px 6px -6px #777;
        -moz-box-shadow: 0 10px 6px -6px #777;
-            box-shadow: 0 10px 6px -6px #7
+            box-shadow: 0 10px 6px -6px #777;
     }
     th.filtre {
-        
+
     }
     tr:hover {
         background: #e66e0d;
@@ -1010,6 +1010,9 @@ div.marki li:hover {
        -moz-box-shadow: 0 10px 6px -6px #777;
             box-shadow: 0 10px 6px -6px #777;
 }
-
+/*--------Описание товара----------*/
+tr.opisanie td{
+    width: 800px;
+}
 
 
