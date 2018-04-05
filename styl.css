@@ -471,7 +471,7 @@ div.cara {
 		}
 		
 		.moreabout {
-		    background-color: #1e2022;
+		    background-color: #ffffff;
 		    width: 855px;
 		    min-height: 100px;
 		    padding: 35px 40px 40px 45px;
@@ -482,7 +482,7 @@ div.cara {
 		
 		.moreabout p {
 		    width: 860px;
-		    color: #e9ecef;
+		    color: #000000;
 		    font-size: 115%;
 		    font-weight: 400;
 		    line-height: 160%;
